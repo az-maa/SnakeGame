@@ -50,7 +50,7 @@ A classic Snake game implementation built with SFML (Simple and Fast Multimedia 
 1. Make sure you have SFML installed on your system
 2. Clone this repository:
    ```bash
-   git clone [your-repo-url]
+   git clone https://github.com/az-maa/SnakeGame
    cd snake-game-sfml
    ```
 3. Compile the project:
@@ -69,6 +69,7 @@ A classic Snake game implementation built with SFML (Simple and Fast Multimedia 
 
 ## Screenshots
 
+![Snake Game Screenshot](ScreenshotSnakeGame.png)
 
 
 ## Acknowledgments
