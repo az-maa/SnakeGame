@@ -51,15 +51,15 @@ A classic Snake game implementation built with SFML (Simple and Fast Multimedia 
 2. Clone this repository:
    ```bash
    git clone https://github.com/az-maa/SnakeGame.git
-   cd snake-game-sfml
+   cd SnakeGame
    ```
 3. Compile the project:
    ```bash
-  g++ SnakeGame.cpp Draw.cpp input.cpp Engine.cpp SnakeSection.cpp update.cpp Wall.cpp Apple.cpp Obstacle.cpp -o SnakeGameApp -lsfml-graphics -lsfml-window -lsfml-system
+   g++ SnakeGame.cpp Draw.cpp input.cpp Engine.cpp SnakeSection.cpp update.cpp Wall.cpp Apple.cpp Obstacle.cpp -o SnakeGameApp -lsfml-graphics -lsfml-window -lsfml-system
    ```
 4. Run the game:
    ```bash
-  ./SnakeGameApp
+   ./SnakeGameApp
    ```
 
 ## Dependencies
@@ -71,10 +71,11 @@ A classic Snake game implementation built with SFML (Simple and Fast Multimedia 
 
 ![Snake Game Screenshot](ScreenshotSnakeGame.png)
 
-
 ## Acknowledgments
 
 This project was developed as part of a learning exercise, following online tutorials for the basic SFML setup and game structure. The obstacle system, wall wrapping, and competitive scoring mechanics were implemented as additional features.
+
+**Tutorial Reference**: [(https://www.youtube.com/watch?v=2fizsE5ynTM)]
 
 ## Future Improvements
 
@@ -86,6 +87,8 @@ This project was developed as part of a learning exercise, following online tuto
 
 ## License
 
+This project is for educational purposes only. Feel free to use, modify, and learn from this code.
 
+---
 
 **Note**: This project was created for educational purposes and incorporates concepts learned from SFML tutorials.
